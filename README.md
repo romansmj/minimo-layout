@@ -1,1 +1,1 @@
-"# minimo-template" 
+written in pure HTML & CSS
