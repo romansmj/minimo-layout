@@ -4,20 +4,9 @@
     font-family: 'Playfair Display', serif;
     color: #626262;
 }
-.wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-.girls {
-    padding-top: 75px;
-}
-.container {
-    width: 1062px;
-    margin: 0 auto;
-}
 .header {
-    padding-top: 70px;
-    padding-bottom: 98px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .header-list {
     display: flex;
@@ -25,48 +14,53 @@
 }
 .header-link {
     text-decoration: none;
-    margin-left: 122px;
+    margin-left: 120px;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
+}
+.image {
+    padding-top: 75px;
+}
+.container {
+    width: 1062px;
+    margin: 0 auto;
 }
 .container-2 {
     width: 900px;
     margin: 0 auto;
 }
-.title {
-    text-transform: uppercase;
-    padding-bottom: 30px;
+.wrapper {
+    display: flex;
+    justify-content: space-between;
 }
-.text {
+.first-title {
+    padding: 50px 0 50px 0;
+    text-transform: uppercase;
+}
+.card-text {
     padding-bottom: 50px;
 }
-.h1 {
-    padding-bottom: 40px;
-    font-size: 30px;
-}
-.h2 {
+.card-title {
     padding-bottom: 40px;
     font-size: 30px;
 }
 .card {
-    width: 420px;
+    width: 400px;
 }
-.card-title {
+.card-subtitle {
     padding: 30px 0px;
     text-transform: uppercase;
 }
-.offer {
+.subscription {
     background: #f0f0f0;
     color: #333333;
     text-align: center;
-    font-size: 30px;
-    padding-top: 70px;
-    padding-bottom: 74px;
-    margin-bottom: 103px;
+    padding: 50px 0 50px 0;
+    margin: 0 0 75px 0;
 }
 .form {
-    width: 400px;
+    width: 50%;
     border-bottom: 1px solid #000;
     margin: 0 auto;
     background: #f0f0f0;
@@ -76,76 +70,69 @@
 .input {
     border: none;
     background: #f0f0f0;
-    padding-left: 4px;
-    padding-right: 196px;
+    width: 100%;
+    padding: 0 0 5px 0;
 }
-.send {
+.input:focus {
+    outline: none;
+}
+.button {
     border: none;
     display: block;
     cursor: pointer;
+    padding: 0 0 5px 0;
 }
-.loadmore {
+.button:focus {
+    outline: none;
+}
+.load-button {
+    transition: 0.5s;
     border: 2px solid #626262;
     display: block;
     margin: 0 auto;
-    width: 164px;
-    padding: 20px 30px;
+    width: 20%;
+    padding: 2.5% 5%;
     text-align: center;
     text-decoration: none;
 }
-.loadmore:hover {
+.load-button:hover {
     background: #000;
     color: white;
     transition: 0.5s;
 }
-.end {
+.last-screen {
     padding-bottom: 100px;
 }
 .footer {
     background: #f0f0f0;
     padding: 40px 0px;
 }
+.footer-left-column, .footer-right-column {
+    display: flex;
+}
 .footer-link {
-    font-size: 14px;
     color: #000000;
-    margin-left: 17px;
+    margin-left: 15px;
     text-transform: none;
     display: flex;
 }
-.icons {
+.footer-icon {
     height: 100%;
 }
-.first , .second {
-    display: flex;
+/* @media (max-width: 576px) {
+    
 }
-.credits {
-    padding-left: 16px;
+@media (max-width: 768px) {
+    
 }
-/*Responsive*/
-/* 992px - 1200px */
-@media screen and (max-width: 1200px) {
+@media (max-width: 992px) {
+    
+}
+@media (max-width: 1200px) {
     .container {
-        width: 960px;
+        width: 900px;
     }
-}
-/* 768px - 992px */
-@media screen and (max-width: 992px) {
-    .container {
-        width: 720px;
-    }
-}
-/* 576px - 768px */
-@media screen and (max-width: 768px) {
-    .container {
-        width: 540px;
-    }
-    .offer {
+    .image {
         width: 100%;
     }
-}
-/* 0 - 576px */
-@media screen and (max-width: 576px) {
-    .container {
-        width: 90%;
-    }
-}
+} */
